@@ -1,0 +1,25 @@
+.product{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    padding: 2%;
+    margin: 3px;
+}
+.productImage{
+    padding: 2%;
+}
+.productDetails{
+    padding: 0% 2%;
+}
+.productDetails button{
+    background-color: rgb(255, 179, 14);
+    border: 2px solid rgb(215, 216, 196);
+    border-radius: 7px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.productName{
+    color: rgb(9, 106, 138);
+
+}
