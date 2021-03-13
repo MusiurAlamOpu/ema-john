@@ -14,7 +14,6 @@ const CartItems = (props) => {
         totalBeforeTex = totalBeforeTex + (totalItemPrice + totalShippingCost);
         grandTotalCost = grandTotalCost + (totalItemPrice + totalShippingCost + totalEstimatedTax);
     }
-    console.log(totalItemPrice);
     return (
         <div>
             <div className="detailsDivs">
@@ -34,8 +33,8 @@ const CartItems = (props) => {
                 <div className="prices">{(totalEstimatedTax).toFixed(2)}$</div>
             </div>
             <div className="detailsDivs" id="grandPrice">
-                <div>Order Total:</div>
-                <div className="prices">{(grandTotalCost).toFixed(2)}$</div>
+                    <div>Order Total:</div>
+                    <div className="prices">{(grandTotalCost).toFixed(2)}$</div>
             </div>
         </div>
     );
